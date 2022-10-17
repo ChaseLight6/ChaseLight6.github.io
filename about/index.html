@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-        <title>在Windows 7系统上使用Hexo搭建Blog | Chase_Light</title>
+        <title>About | Chase_Light</title>
         <meta name="author" content="Chase_Light">
         <meta name="description" content="">
         <meta name="keywords" content="">
@@ -125,42 +125,25 @@
                         
 <div class="article">
     <div>
-        <h1>在Windows 7系统上使用Hexo搭建Blog </h1>
+        <h1>About </h1>
     </div>
     <div class="info">
         <span class="date">
             <span class="icon">
                 <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
             </span>
-            2022/10/13
+            2022/10/17
         </span>
         
-        
-        <span class="tags">
-            <span class="icon">
-                <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
-            </span>
-            
-            <span class="tag">
-                
-                <a href="/tags/教程/" style="color: #00a596">
-                    教程
-                </a>
-            </span>
-            
-        </span>
         
     </div>
     <div class="content" v-pre>
-        <p>主要针对使用<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>&amp;<a target="_blank" rel="noopener" href="https://github.com/">GitHub</a>搭建个人博客的方法，以及各疑难问题的解决方案(包括但不限于Windows 7系统)</p>
-<span id="more"></span>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>众所周知，<a target="_blank" rel="noopener" href="https://www.microsoft.com/zh-cn">Microsoft</a>于2009年10月22日发布了Windows 7，并在2020年1月14日停止了对Windows 7的技术支持。本人目前用的电脑是2010年左右买的，距今已有约12年的历史。Win XP一直用了大概9年，对XP系统还是有很深的感情的。在2019年时我才重装了一个Win 7系统。<br>不过在Microsoft停止对Win 7的技术支持后，Win 7很快失去了当年市场份额占比最高的霸主地位，被Win 10反超。但依然还是有很大一部分的人仍在使用Windows 7系统。<br>至于笔者为什么不更新自己的电脑系统至Win 10或Win 11……原因我就不细讲了，之前或许我还能说Win 7兼容性比Win 10好，可现在许多软件都不再支持Win 7。比如office只有2016及以下版本支持Win 7，AI、PS新版本Win 7貌似也装不了(与其说是装不了,不如说是带不动),之前想装Matlab也只有一些老版本支持Win 7，Mathematica也不知道为什么安装不了。<br>一直想买一台新电脑，可惜笔者四大皆空……<img src="https://s3.bmp.ovh/imgs/2022/10/17/42ebaea5204b3506.jpg" width="35%" height="35%">于是就只能凑合着用这台配置特别差的电脑。<br>以上内容看似瞎扯，实则在感慨一个时代的落幕(doge)</p>
-<h2 id="真·前言"><a href="#真·前言" class="headerlink" title="真·前言"></a>真·前言</h2><p>搭建个人博客是我很早就有的想法，只不过一直没付诸实践。本人使用的是<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>框架，</p>
-<blockquote>
-<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  </p>
-</blockquote>
-<p>搭建过程中真的会遇到很多麻烦事，尤其是我的Win 7系统。并且本人非常幸运的 遇到了 很多 一般人 最多只能 遇到一两次 的问题，就好比玩扫雷连着好几把都是开局踩雷，原本认为最多两个小时就能搞定的东西硬生生搞了十几个小时╥﹏╥…<br>希望没有人会再遇到这些问题吧……<br>本人从网上搜集或自己摸索出使用hexo时会遇到的一些问题和解决方法，并进行了整合，希望对你能有所帮助。</p>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>学业繁忙，暂时停更</p>
+        <h1 id="Hello-This-is-Chase-Light’s-blog"><a href="#Hello-This-is-Chase-Light’s-blog" class="headerlink" title="Hello! This is Chase_Light’s blog"></a>Hello! This is Chase_Light’s blog</h1><hr>
+<h2 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I?"></a>Who am I?</h2><p>一个普通的中学生，不随波逐流。<br>没事上知乎 or b站闲逛<br>喜欢听歌，尤其是轻音乐<a href="%E4%B8%8D%E5%96%9C%E6%AC%A2%E7%8E%A9%E6%B8%B8%E6%88%8F%EF%BC%8C%E5%B0%A4%E5%85%B6%E6%98%AF%E6%9F%90%E4%BA%9B%E7%83%AD%E9%97%A8%E6%B8%B8%E6%88%8F%E3%80%82%E4%BD%86%E5%81%B6%E5%B0%94%E4%BC%9A%E7%8E%A9%E4%B8%80%E7%8E%A9Taptap%E4%B8%8A%E7%9A%84%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%EF%BC%8C%E5%96%9C%E6%AC%A2%E9%98%85%E8%AF%BB%EF%BC%8C%E4%BD%86%E4%B8%8D%E5%96%9C%E6%AC%A2%E7%BD%91%E8%B7%AF%E5%B0%8F%E8%AF%B4%E3%80%82">^i</a><br>Tips: 页面左下角~  </p>
+<p>最喜欢的科目:数学  </p>
+<h2 id="What-is-the-origin-of-my-screen-name"><a href="#What-is-the-origin-of-my-screen-name" class="headerlink" title="What is the origin of my screen name?"></a>What is the origin of my screen name?</h2><p>源自<a href="taptap.com">Taptap</a>上的一个9.5分科幻放置类游戏 <a target="_blank" rel="noopener" href="https://www.taptap.com/app/187303">逐光:启航</a><br>去年打了全结局，剧情非常优质，引人深思。<br>难得的良作，推荐游玩。</p>
+<h3 id="本人现个性签名的由来"><a href="#本人现个性签名的由来" class="headerlink" title="本人现个性签名的由来"></a>本人现个性签名的由来</h3><p><img src="https://s3.bmp.ovh/imgs/2022/10/17/2d180dd5140b6261.jpg"><br><u>普适的代价是抽象。</u></p>
+<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><p>QQ: <a target="_blank" rel="noopener" href="https://qm.qq.com/cgi-bin/qm/qr?k=sO2hEgM_eQFewTYQJiyyJxpHX2VXl2c7&noverify=0&personal_qrcode_source=3">1594258603</a></p>
 
     </div>
     
